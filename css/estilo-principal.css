@@ -1,0 +1,22 @@
+.logo img{
+
+    width: 10%;
+}
+header{
+    text-align: center;
+    background-image: url("../img/Portada.png");
+    color: white;
+}
+blockquote::before{
+    content: open-quote;
+}
+blockquote::after{
+    content: close-quote;
+}
+.logo{
+    background-color: #f97f19;    
+}
+.logo img{
+
+    width: 10%;
+}

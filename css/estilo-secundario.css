@@ -1,0 +1,68 @@
+nav{
+    background-color: #5e5e83;
+    font-size: 1em;
+    line-height: 1em;
+}
+.logo img{
+
+    width: 10%;
+}
+header{
+    text-align: center;
+    background-image: url("../img/Portada.png");
+    color: white;
+}
+blockquote::before{
+    content: open-quote;
+}
+blockquote::after{
+    content: close-quote;
+}
+.logo{
+    background-color: #f97f19;    
+}
+.logo img{
+
+    width: 10%;
+}
+.enlace{
+    color: white;
+}
+.enlace:hover{
+    color: #00ffb3;
+}
+h1 {
+    display: block;
+    font-size: 350%;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    color:rgb(0, 0, 0);
+    text-shadow: 1px 1px 1px rgba(50, 50, 50, 5);
+    background-color: rgb(255, 255, 255,0.6);
+  }
+  table th{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+thead{
+    background-color: #6645c2;
+    color: #fff;
+}
+tbody{
+    text-align: center;
+}
+table tbody tr td:nth-child(odd) /*even - odd*/
+{
+    background-color: #c3b7e9d0;
+}
+p {
+    font-size: 120%;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+  }

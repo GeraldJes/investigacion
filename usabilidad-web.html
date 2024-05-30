@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+        <title>Usabilidad Web</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/estilo-secundario.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <style>
+            table,
+            td,
+            th {
+                border: 2px solid blue;
+                border-collapse: collapse;
+            }
+        </style>
+    </head>
+</head>
+<body>
+    <header>
+        <a>
+            <img src="./img/Logo.png" alt="Logo Librería UTN">
+        </a>
+        <h1>Usabilidad Web</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#definicion" class="enlace"><h3>¿Qué es?</h3></a></li>
+            <li><a href="#importancia" class="enlace"><h3>Importancia</h3></a></li>
+            <li><a href="#principios" class="enlace"><h3>Principios</h3></a></li>
+            
+                <ol>
+                    <li><a href="#visibilidad" class="enlace"><h3>Visibilidad del estado del sistema</h3></a></li>
+                    <li><a href="#coincidencia" class="enlace"><h3>Coincidencia entre el sistema y el mundo real</h3></a></li>
+                    <li><a href="#control" class="enlace"><h3>Control y libertad de usuario</h3></a></li>
+                    <li><a href="#consistencia-estandares" class="enlace"><h3>Consistencia y estandares</h3></a></li>
+                    <li><a href="#prevencion" class="enlace"><h3>Prevención de errores</h3></a></li>
+                    <li><a href="#reconocimiento" class="enlace"><h3>Reconocimiento en lugar de recuerdo</h3></a></li>
+                    <li><a href="#flexibilidad" class="enlace"><h3>Flexibilidad</h3></a></li>
+                    <li><a href="#simplicidad" class="enlace"><h3>Simplicidad</h3></a></li>
+                    <li><a href="#recuperacion-errores" class="enlace"><h3>Ayudar a los usuarios a reconocer y recuperarse de los errores</h3></a></li>
+                    <li><a href="#ayuda" class="enlace"><h3>Ayuda y documentación</h3></a></li>
+                </ol>
+        </ul>
+    </nav>
+    <main>
+        <section id="definicion">
+            <h1>¿Qué es?</h1>
+            <article>
+                <div>
+                    
+                        <p>
+                            Según Coppola (2023), la usabilidad web se refiere a las características que posee un sitio web, 
+                            las cuales crean una experiencia de navegación satisfactoria para el usuario. 
+                            Estas características abarcan campos como el diseño gráfico de la página, colores, 
+                            y la presentación de la información dentro del sitio web. 
+                        </p>
+                        <blockquote>
+                            Este proceso empieza desde que el usuario entra al sitio y toma en consideración la velocidad de carga; 
+                            la logística del menú y sus secciones; el diseño y la organización de los elementos gráficos; 
+                            que las páginas no muestren errores; la optimización de los textos, funcionamiento de los chats, 
+                            los formularios, la barra de navegación, botones y demás elementos. (Coppola, 2023, párr. 4)
+                        </blockquote>
+                        <footer>
+                            Fuente:
+                            <a href="https://blog.hubspot.es/website/que-es-usabilidad-web" target="_blank">
+                                Qué es la usabilidad web, principios y ejemplos (hubspot.es)
+                            </a>
+                        </footer>
+                </div>
+            </article>
+        </section>
+
+        <section id="importancia">
+            <article>
+                <h1>Importancia y ventajas</h1>
+                <p><i>Para un usuario frustrado, es más fácil abandonar tu sitio web e intentar satisfacer sus necesidades con el de la competencia.</i></p>
+                <div>
+                    <p>
+                        La usabilidad web trae consigo diversas ventajas que pueden ser de gran utilidad para nuestros sitios web, 
+                        y así alcanzar nuestros objetivos.  
+                        Omatech(2022) cree que la importancia de la usabilidad web radica principalmente en los siguientes puntos:
+                    </p>
+                    <article>
+                        <table style="width: 70%;">
+                            <thead>
+                                <tr>
+                                    <th colspan="3"><b>VENTAJAS</b></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td colspan="3"><p>Se reduce el porcentaje de abandono, 
+                                        si un sitio web cuenta con las características 
+                                        esenciales para considerar que tiene una buena usabilidad web, 
+                                        corre menos riesgo de los usuarios abandonen el sitio.</p></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3"><p>Aumenta la posibilidad de obtener nuevos clientes, 
+                                        un potencial cliente, suele tener una primera impresión de 
+                                        tu empresa al visitar su sitio web.</p></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3"><p>Enriquece la imagen y prestigio de la empresa, 
+                                        una buena usabilidad web puede posocionar una empresa como una de las más 
+                                        populares de los usuarios que la visiten al proporcionarle una 
+                                        experiencia de navegación de calidad.</p></td>
+                                </tr>
+                                
+                            </tbody>
+                        </table>
+                    </article>
+                    
+                    <footer>
+                        Fuente:
+                        <a href="https://www.omatech.com/blog/2022/04/20/por-que-es-importante-usabilidad-web/" target="_blank">
+                            ¿Por qué es importante la usabilidad web? (omatech.com)
+                        </a>
+                    </footer>
+                </div>
+            </article>
+        </section>
+
+        <section id="principios">
+            <h1>Principios de usabilidad web de Jakob Nielsen</h1>
+
+            <article>
+                <div>
+                    <section id="visibilidad">
+                        <a><h2> 1. Visibilidad del estado del sistema</h2></a>
+                        <p>
+                            Este principio de Jakop Nielsen, 
+                            lo que busca es hacer énfasis en la importancia de mantener a 
+                            los usuarios informados en todo momento sobre el estado actual del sistema, 
+                            para así conocer el resultado de sus acciones anteriores, y las decisiones que debe de
+                             tomar a continuación.
+                        </p>
+                        <p>
+                            Es decir, que cada acción que ejecute el usuario deberá estar acompañado con información 
+                            visual que respalde la respuesta del sistema ante estas acciones, 
+                            y de esta manera reducir la incertidumbre de los usuarios.
+                        </p>
+                        <p>
+                            Un ejemplo de este principio aplicado, son las barras de carga del sistema como la siguiente:
+                        </p>
+                        <figure>
+                            <img src="img/Barra de carga.png"
+                                alt="Barra de carga"
+                                width="500" height="250" />
+                            <figcaption>Las barras de carga nos dan información visual sobre el progreso de una acción del sistema</figcaption>
+                        </figure>
+                    </section>
+
+                    <section id="coincidencia">
+                        <a><h2>2. Similitud entre el sistema y el mundo real</h2></a>
+                        <p>
+                            Como desarrolladores web, nunca se debe asumir que nuestros propios conocimientos 
+                            e interpretación de objetos o palabras es la misma que la de los usuarios, ya que
+                            la forma en la que interpretamos las cosas depende de un gran número de factores que 
+                            varía en cada persona (García, 2022)
+                        </p>
+                        <p>
+                            Kaley(2018) resalta que si los usuarios no entienden los términos utilizados 
+                            en un sitio, se verán obligados a salir del sistema y buscar el significado 
+                            en otro lugar, y en el peor de los casos, buscar el mismo servicio en la competencia.
+                        </p>
+                        <p>
+                            Este principio, lo que nos indica es que los sistemas deben estar orientados a 
+                            que los conceptos y objetos estén en un lenguaje familiarizado con el usuario, 
+                            en lugar de términos de lenguaje interno.
+                        </p>
+                        <p>
+                            Un ejemplo de esta regla se ve reflejado en el sitio web de Monge, que utiliza elementos visuales
+                            como lo es un carrito de compras, el cual da a entender que al tocar ese ícono puede comprar artículos
+                            , esto hace que los usuarios se sientan familiarizados con el,
+                            ya que simula la experiencia de ir a la tienda física.
+                        </p>
+                        <figure>
+                            <img src="img/Sitio de Monge.png"
+                                alt="Icono de carrito de compras en el sitio web de Monge"
+                                width="700" height="250" />
+                            <figcaption>El ícono de carrito de compras simula la experiencia de 
+                                comprar en una tienda física y elegir productos</figcaption>
+                        </figure>
+                    </section>
+
+                    <section id="control">
+                        <a><h2>3. Control y libertad del usuario</h2></a>
+                        <p>
+                            Es muy común para los usuarios cometer errores, 
+                            por lo que es fundamental que después de cada acción, 
+                            tener la posibilidad de cancelar o volver atrás. El hecho de que el usuario 
+                            tenga la posibilidad de revertir sus pasos le da un sentimiento de confianza en el sistema, y se 
+                            fomenta una sensación de libertad.
+                        </p>
+                        <p>
+                            La acción de cancelar evita que los usuarios se frustren y 
+                            se vean en la necesidad de realizar pasos innecesarios para volver al sitio deseado, 
+                            y es el principio de la tercera regla según García (2022).
+                        </p>
+                        <p>
+                            Un ejemplo de sitio web que implementa esta tercera regla, es Gmail. Luego de archivar un correo, este 
+                            sistema nos brinda automáticamente la opción de deshacerlo.
+                        </p>
+                        <figure>
+                            <img src="img/control en gmail.jpg"
+                                alt="Ventana que en Gmail que nos ofrece la opción de deshacer la acción de archivar un correo"
+                                width="400" height="250" />
+                            <figcaption>La opción de deshacer la opción luego de archivar un correo llega a ser muy útil en caso de que
+                                la acción realizada haya sido accidental
+                            </figcaption>
+                        </figure>
+                    </section>
+
+                    <section id="consistencia-estandares">
+                        <a><h2>4. Consistencia y estandares</h2></a>
+                        <p>
+                            Los usuarios ya tienen un mapa mental definido de lo que esperan ver dependiendo 
+                            del sitio web que van a visitar. De lo que habla la cuarta ley de Nielsen, 
+                            es que los usuarios no deberían de aprender cosas nuevas cada vez que se ingrese a un nuevo sitio web, 
+                            si no, que los sitios web deberían tener convenciones bien establecidas que facilitan la vida de los usuarios, 
+                            y no tratar de innovar de manera abismal, si no apegarse a las convenciones típicas de los sitios web.
+                        </p>
+                        <p>
+                            Un ejemplo de estas convenciones es el logo de la lupa que simboliza la navegación, 
+                            el cual está presente en la mayoría de los sitios web que están orientados a las compras en línea.
+                        </p>
+                        
+                        <figure>
+                            <img src="img/icono-lupa.png"
+                                alt="El icono de la lupa que se encuentra en la mayoría de sitios web orientados a compras online"
+                                width="550" height="60" />
+                            <figcaption>La barra de busqueda del sitio web de Monge que implementa la cuarta ley de Nielsen
+                            </figcaption>
+                        </figure>
+                    </section>
+
+                    <section id="prevencion">
+                        <a><h2>5. Prevención de errores</h2></a>
+                        <p>
+                            Los mensajes de error son importantes, pero antes de eso los sistemas
+                             deberían de ser capaces de evitar que esos errores ocurran en primer lugar. 
+                             Esto tiene mayor menor grado de importancia dependiendo de la acción que estemos ejecutando.
+                        </p>
+                        <p>
+                            El mensaje principal de este principio es eliminar las condiciones que son propensas a 
+                            dar problemas en primer lugar, y presentar a los usuarios ventanas de confirmación 
+                            antes de cualquier acción. Por ejemplo, cuando queremos ingresar a un sitio que no es 
+                            seguro y el navegador nos lo hace saber antes de ingresar
+                        </p>
+                        <figure>
+                            <img src="img/Prevencion.png"
+                                alt="Las prevenciones nos ayudan a evitar realizar acciones no deseadas"
+                                width="550" height="400" />
+                            <figcaption>Mensaje de error antes de ingresar a un sitio web no seguro
+                            </figcaption>
+                        </figure>
+                    </section>
+
+                    <section id="reconocimiento">
+                        <a><h2>6. Reconocimiento en lugar de recuerdo</h2></a>
+                        <p>
+                            Para un usuario, es más fácil reconocer que aprender y recordar. 
+                            Se dice que entre menos se haga pensar al usuario, 
+                            más satisfactoria será su experiencia de navegación. 
+                            Un usuario no debería de retener información de un sitio web a otro.
+                        </p>
+                        <p>
+                            De lo que habla la sexta regla, es que un sistema debe de ser lo más intuitivo posible, 
+                            para así evitar que el usuario piense de más al querer realizar una acción
+                        </p>
+                        <figure>
+                            <img src="img/spotify.png"
+                                alt="Lista de canciones de spotify en el cual podemos ver las portadas de los albumes"
+                                width="300" height="400" />
+                            <figcaption>Las portadas al lado del nombre de las canciones pueden ayudarnos a recordar cuales son nuestras favoritas
+                            </figcaption>
+                        </figure>
+                    </section>
+
+                    <section id="flexibilidad">
+                        <a><h2>7. Flexibilidad</h2></a>
+                        <p>
+                            Nunca se sabe que tipo de usuario se verá atraído por tu sitio web, 
+                            por lo que no podemos asumir que será un novato en la navegación web 
+                            ni que tampoco será un usuario experto, por lo que el sistema deberá adaptarse a
+                             ellos y a las circunstancias y brindarles diferentes formas de cumplir sus objetivos 
+                             dentro del sitio web, ese es el objetivo de la sétima regla
+                        </p>
+                        <p>
+                            Un ejemplo de este principio son las ventanas emergentes, las cuáles tienen distintas maneras de 
+                            cerrarse, ya sea tocando fuera de la ventana, usando las tecla "ESC", o simplemente tocando el boton "Entendido", 
+                            o en la equis que generalmente se encuenra en la parte superior.
+                        </p>
+                        <figure>
+                            <img src="img/emergente.png"
+                                alt="Ventana emergente"
+                                width="450" height="300" />
+                            <figcaption>Las ventanas emergentes generalmente siempre tienen diferentes formas de ser cerradas
+                            </figcaption>
+                        </figure>
+                    </section>
+
+                    <section id="simplicidad">
+                        <a><h2>8. Simplicidad</h2></a>
+                        <p>
+                            Las interfaces no deberían tener información que sea irrelevante o 
+                            muy poco necesaria para la funcionalidad de la interfaz, ya que esta información 
+                            innecesaria compite visualmente con la información que si es indispensable. 
+                        </p>
+                        <p>
+                            Este principio no busca que tengas una interfaz con un diseño completamente plano, 
+                            si no que exista un equilibrio entre la información presentada y la necesaria. El mejor ejemplo 
+                            de este principio es el buscador de Google, que literalmente tiene lo unico y necesario que deberían 
+                            de tener los navegadores de internet.
+                        </p>
+                        <figure>
+                            <img src="img/Simplicidad.png"
+                                alt="Navegador de Google"
+                                width="450" height="200" />
+                            <figcaption>El navegador de Google contiene la información justa y necessaria que un buscador requiere.
+                            </figcaption>
+                        </figure>
+                    </section>
+
+                    <section id="recuperacion-errores">
+                        <a><h2>9. Ayudar a los usuarios a reconocer y recuperarse de los errores</h2></a>
+                        <p>
+                            Esta regla es correlativa a la 5, 
+                            a diferencia de que en este principio se habla de estos 
+                            errores cuando no logran evitar y finalmente sucede. 
+                        </p>
+                        <p>
+                            Lo primero que se debe hacer, según Nielsen, 
+                            es informarle al usuario cual ha sido el error de manera clara y simple, 
+                            presentándose con información visual que ayude a reconocer el problema, 
+                            como por ejemplo a la hora de equivocarse al querer iniciar sesión.
+                        </p>
+                        <figure>
+                            <img src="img/recuperacion-errores.png"
+                                alt="Intento de inicio de sesión"
+                                width="450" height="370" />
+                            <figcaption>El mensaje de error a la hora de intentar ingresar un correo electrónico informa del problema de forma clara y simple
+                            </figcaption>
+                        </figure>
+                    </section>
+
+                    <section id="ayuda">
+                        <a><h2>10. Ayuda y documentacion</h2></a>
+                        <p>
+                            Finalmente la regla número 10 dice que se debe ayudar al usuario cliente, 
+                            y evitar en la medida de lo posible que contacte con el servicio al cliente. 
+                        </p>
+                        <p>
+                            Esta ayuda se puede dar por medio de tutoriales, 
+                            o información que sea fácil de encontrar dentro del sitio web, que los 
+                            ayude a comprender mejor el funcionamiento del mismo.
+                        </p>
+                        <figure>
+                            <img src="img/hbo.png"
+                                alt="Espacio de ayuda autónoma para clientes de HBO"
+                                width="500" height="370" />
+                            <figcaption>El espacio de ayuda y documentación autónoma de HBO es de gran ayuda para usuarios inexpertos en las plataformas de streaming
+                            </figcaption>
+                        </figure>
+                    </section>
+                </div>
+            </article>
+            <footer>
+                Fuentes:
+                <a href="https://www.marketinet.com/blog/10-principios-usabilidad-web" target="_blank">
+                    Los 10 Principios de la Usabilidad Web (con ejemplos)
+                </a>
+                
+            </footer>
+            <footer>
+                <a href="https://www.nngroup.com/articles/ten-usability-heuristics/" target="_blank">
+                    10 Heurísticas de usabilidad para el diseño de interfaces de usuario
+                </a>
+            </footer>
+        </section>
+    </main>
+</body>
+</html>
