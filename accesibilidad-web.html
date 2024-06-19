@@ -10,19 +10,17 @@
     <h1>Accesibilidad Web</h1>
 </header>
 <nav>
-    <div class="nav-button"><a href="#modal">¿Qué es?</a></div>
-    <div class="nav-button"><a href="#pagination">Importancia</a></div>
-    <div class="nav-button"><a href="#nav-tab">Principios</a></div>
+    <div class="nav-button"><a href="#concepto">¿Qué es?</a></div>
+    <div class="nav-button"><a href="#importancia">Importancia</a></div>
+    <div class="nav-button"><a href="#principios">Principios</a></div>
 </nav>
 <body>
     <main>
         <section>
-            <h1>¿Qué es?</h1>
-            <div class="noticia-container">
-                <div>
-                    <img src="img/inv2c1.png" class="imagen-relleno">
-                </div>
-                <div class="noticia-content">
+            <a id="concepto"><h1>¿Qué es?</h1></a>
+            <div class="contenedor">
+                <img src="img/inv2c1.png" width="290" height="290">
+                <div class="contenedor-texto">
                     <p>Es un hecho que el mundo actualmente tiene una relación muy estrecha con la tecnología, y es inevitable verla en todas
                         las acciones que se realizan día con día. Es una herramienta que a pesar de las críticas, ha llegado para hacer nuestra vida 
                         más sencilla y nos ha abierto puertas a nuevas posibilidades. Debido a esta creciente dependencia, es esencial que el 
@@ -34,6 +32,96 @@
                     </p>
                 </div>
             </div>
+        </section>
+        <section>
+            <a id="importancia"><h1>Importancia</h1></a>
+            <p>
+                La importancia de la accesibilidad web radica en la posibilidad de tener usuarios más diversos visitando nuestra página. 
+                Al hacer que nuestros sitios sean aptos para personas con capacidades diferentes, 
+                se promueve un ambiente de inclusión, incrementando la popularidad de nuestros sitios. 
+            </p>
+            <p>
+                Al querer implementar los principios de la accesibilidad web en nuestros sitios, 
+                no solamente logra llegar a diversas audiencias, si no que también se cumplen normativas legales y éticas.
+            </p>
+            <p>Los principios de la accesibilidad web son los siguientes:</p>
+        </section>
+        <section>
+            <a id="principios"><h2>1. Perceptible</h2></a>
+            <p>La información y los componentes en la página deben emplear técnicas para que a la hora de mostrarlos,
+                 cualquier tipo de usuario lo pueda entender, incluyendo a los usuarios con capacidades diferentes.
+            </p>
+            <div class="contenedor">
+                <img src="img/primer-principio.png" alt="Dos perritos dentro de una canasta sonriendo">
+                <div class="contenedor-texto">
+                    <p>Asegurarnos que todo el contenido visual de nuestra página, tenga una breve explciación de lo que se muestra con el atributo alt. 
+                        De esta manera los lectores de pantalla leen el texto alternativo en vez de la imagen.
+                    </p>
+                    <img src="img/alt.png" alt="ejemplo de uso de la característica alt" width="500">
+                </div>
+            </div>
+            <h2>2. Operable</h2>
+            <p>Los componentes de la interfaz de usuario deben ser operables (W3C, 2023). 
+                Esto quiere decir que los usuarios deben de ser capaces de 
+                interactuar con la página incluso sin un mouse. 
+                Esto incluye la capacidad de moverse entre enlaces, botones y formularios.
+            </p>
+            <div class="contenedor">
+                <div class="contenedor-texto">
+                    <p>Asegurar que los botones y enlaces tengan suficiente tamaño y 
+                        espaciado entre sí para facilitar su uso y disminuir el margen de equivocación. Además de que todas 
+                    las funcionalidades deben de ser operables con el teclado.</p>
+                </div>
+                <video controls="controls" style="margin-left:10px;">
+                    <source src="video/segundo-principio.mp4">
+                </video>
+            </div>
+            <h2>3. Comprensible</h2>
+            <p>Las funciones y la interfaz de usuario deben de ser comprensibles. 
+                Esto significa que el funcionamiento presentado tiene que ser aptos 
+                para que los usuarios entiendan como interactuar.
+            </p>
+            <div class="contenedor">
+                <img src="img/tercer-principio.png">
+                <div class="contenedor-texto">
+                    <p>Los formularios deben tener etiquetas claras y proporcionar 
+                        mensajes de error específicos y útiles cuando el usuario introduce datos incorrectos.</p>
+                </div>
+            </div>
+            <h2>4. Robusto</h2>
+            <p>El contenido debe de ser lo suficientemente robusto para que pueda ser interpretado 
+                por tecnología de asistencia. Esto nos asegura que el contenido siga siendo accesible 
+                a medida que las tecnologías evolucionan.
+            </p>
+            <div class="contenedor">
+                <div class="contenedor-texto">
+                    <p>Este principio se conseguir manteniéndose al día con los últimos estándares de las tecnologías e información. 
+                        Utilizar características avanzadas de CSS3 para mejorar la estética y la 
+                        accesibilidad de un sitio web, asegurando que los estilos sean modernos y
+                         compatibles con una amplia gama de navegadores.
+                    </p>
+                    <div class="container">
+                        <h1>Ejemplo usando estándares de CSS3</h1>
+                        <p>Este es un ejemplo que utiliza características avanzadas de CSS3 para mejorar la experiencia visual y la accesibilidad del sitio web.</p>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                Fuente:
+                <a href="https://www.hostinger.co/tutoriales/accesibilidad-web#:~:text=
+                Robusto%20Este%20principio%20dicta%20que%20el%20contenido%20del,
+                informaci%C3%B3n%20y%20la%20comunicaci%C3%B3n%2C%20como%20HTML5%20y%20CSS3." target="_blank">
+                Accesibilidad web: Qué es y los mejores principios de diseño (hostinger.co)
+                </a>
+            </footer>
+            <footer>
+                Fuente:
+                <a href="https://blog.hubspot.es/website/que-es-accesibilidad-web#:~:
+                text=La%20accesibilidad%20web%20es%20la%20caracter%C3%ADstica%20de%20los,
+                o%20sociales%2C%20como%20es%20el%20caso%20del%20analfabetismo." target="_blank">
+                Accesibilidad web, qué es y cómo se logra (con ejemplos) (hubspot.es)
+                </a>
+            </footer>
         </section>
     </main> 
 </body>

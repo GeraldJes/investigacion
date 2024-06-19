@@ -1,6 +1,6 @@
 header{
     text-align: center;
-    background-image: url("../img/fi2.png");
+    background-image: url("../img/fondo4.jpg");
     color: white;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -8,7 +8,10 @@ header{
 }
 header h1{
     font-size: 4em;
-    color: black;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 2px #484848;
 }
 main{
     padding-right: 10rem;
@@ -24,7 +27,7 @@ main h1{
 }
 nav {
 
-    background-color: #050633;
+    background-color: #ae5a8f;
     display: flex;
     justify-content: center; 
     padding: 14px 0; 
@@ -49,34 +52,59 @@ nav {
 }
 section{
     background-color: #ececec;
+    padding: 18px;
 }
-.noticia {
-    margin-bottom: 2em;
+section h2{
+    text-align: center;
 }
-
-.noticia-container {
+.contenedor{
     display: flex;
-    justify-content: center;
     align-items: center;
 }
-
-.noticia-img {
-    /*flex-grow: 1;*/
-    flex-shrink: 3;
-    & img{
-      max-width: 70%;  
-    }
+.contenedor img{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.contenedor video{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.imagen{
+    width: 290;
+    height: 290;
+}
+.contenedor-texto{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
 }
 
-.noticia-content {
-    /*padding: 1em;*/
-    flex-grow: 2;
-    padding-left: 3em;
-    padding-right: 3em;
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
 }
-.imagen-relleno{
-    height: 250px;
-    width: 300px;
-    padding-right: 1em;
-    padding-left: 1em;
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+.container:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+h1 {
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 2px #ccc;
+}
+p {
+    font-size: 1.2em;
+    color: #666;
+    line-height: 1.8;
 }
